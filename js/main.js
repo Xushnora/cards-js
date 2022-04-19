@@ -63,7 +63,9 @@ function renderObj(obj) {
                 console.log(e.currentTarget.querySelector('.removBtn'));
                 e.currentTarget.querySelector('.removBtn').style.display = "block"
                 e.currentTarget.querySelector('.removBtn').addEventListener('click', () =>{
-                    item.remove()
+                    setTimeout(function(){
+                        item.remove()
+                    }, 100)
                 })
             })
             
