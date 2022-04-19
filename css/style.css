@@ -9,9 +9,9 @@
 }
 
 .card {
-    border: 1px solid black;
-    -webkit-box-shadow: inset 0px 25px 11px 6px rgba(0,0,0,0.05); 
-    box-shadow: inset 0px 25px 11px 6px rgba(0,0,0,0.05);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    -webkit-box-shadow: inset -5px 50px 46px -4px rgba(0,0,0,0.1); 
+    box-shadow: inset -5px 50px 46px -4px rgba(0,0,0,0.1);
 }
 
 .data__desc img {
@@ -78,7 +78,7 @@
 .removBtn {
     position: absolute;
     top: 47%;
-    left: 40%;
+    left: 35%;
     background-color: red;
     color: #fff;
     padding: 5px 20px;
@@ -87,6 +87,7 @@
     transition: all 0.3s ease;
     display: none;
     transition: all 1s ease;
+    outline: 4px solid rgba(253, 0, 0, 0.479);
 }
 
 .none {

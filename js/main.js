@@ -23,7 +23,7 @@ function renderObj(obj) {
             <div class="card-body">
                 <div>
                     <div>
-                        <button class="removBtn">remove</button>
+                        <button class="removBtn">Remove user</button>
                     </div>
                     <div class="data__desc">
                         <img src="${el.avatar}">
